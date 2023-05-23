@@ -1,0 +1,53 @@
+.cuadro{
+    margin: 0 auto;
+    background: linear-gradient(violet,blue);
+    width: 170px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-shadow: 5px 5px 10px 3px gray;
+
+}
+#titulo{
+    font-size: 20px;
+}
+.campos{
+    width: 100%;
+    padding: 7px;
+}
+#ingresar:hover{
+    background: rgb(43, 42, 42);
+    color: beige;
+}
+#ingresar{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+        position: absolute;
+            bottom: 7px;
+            right: 20px;
+}
+@media screen and (max-width: 768px) {
+    .cuadro{
+        width: 100%;
+    }
+    #titulo{        
+        width: 100%;
+    }
+    .campos{
+        width: 100%;
+    }
+    #ingresar:hover{        
+        width: 100%;
+    }
+    #ingresar {
+        width: 100%;
+        }
+}
